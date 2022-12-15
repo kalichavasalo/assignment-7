@@ -19,3 +19,45 @@ h2 {
 	width: 400px;
 	height: 400px;
 }
+.container1 {
+	position: relative;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.container1 .paragraphes {
+	position: absolute;
+	left: 7px;
+	bottom: 7px;
+}
+.container2 {
+	position: relative;
+	margin-left: 70px;
+}
+.container2 .paragraphes {
+	position: absolute;
+	left: 50px;
+	bottom: 10px;
+}
+.container3 {
+	position: relative;
+	margin-left: 130px;
+}
+.container3 .paragraphes {
+	position: absolute;
+	left: 7px;
+	bottom: 7px;
+}
+.paragraphes {
+	width: 460px;
+	height: 90px;
+	border-radius: 12px;
+	background-color: rgba(255, 255, 255, 0.52);
+	font-size: 22px;
+}
+.whitediv .container1 , .whitediv .container3{
+	bottom: 200px;
+}
+.whitediv .container2 {
+	bottom: 100px;
+
+}
